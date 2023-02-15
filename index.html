@@ -1,40 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 
 <head>
     <title>Sulfurium</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
 </head>
 
 <body>
-
     <div class="navbar">
-
-        <a href="#">
-            <img src="assets/icons/android-chrome-512x512.png">
-            <span class="slide"></span>
-            <div class="text">Sulfurium</div>
-        </a>
-
-        <a href="#">
-            <img src="assets/blocks/copper_block.png">
-            <span class="slide"></span>
-            <div class="text">Adventure</div>
-        </a>
-        <a href="#">
-            <img src="assets/blocks/grass_block.png">
-            <span class="slide"></span>
-            <div class="text">SMP</div>
-        </a>
-        <a href="#">
-            <img src="assets/blocks/diamond_block.png">
-            <span class="slide"></span>
-            <div class="text">Shop</div>
-        </a>
+        <img src="assets/icons/android-chrome-512x512.png">
         
+        <a href="#">Shop</a>
+        <a href="#">Impressum</a>
+    </div>
 
+    <div class="view" id="view">
+        <div class="page" id="page1" style="height: 500vh">
+            <div class="bg">
+                <img src="assets/header.png">
+                <div class="cover" style="--scale: 2000%; --offset: 600vh">
+                    <div class="screen">
+                        <span class="divider"></span>
+                        <img src="assets/clip.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="spacer" style="height: 300vh; width: 100%;"></div>
+                <div class="full">
+                    <div class="sidebar">
+                        <h1><span style="color: #5555FF;">Sulfurium</span></h1>
+                        <p><span style="color: #000;">IP:</span> <span style="color: #5555FF;">mc.sulfurium.net</span></p>
+                        <p><span style="color: #000;">Version:</span> <span style="color: #5555FF;">1.17 - 1.19</span></p>
+                        <p><span style="color: #000;">Discord:</span> <span style="color: #5555FF;">dsc.gg/sulfurium</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="page" id="page2" style="height: 300vh;">
+    
+        </div>
     </div>
 
 </body>
